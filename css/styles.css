@@ -1,0 +1,27 @@
+.mario, .bowser, .link, .peach, .pikachu, .kirby{
+  display: none;
+}
+
+body {
+  text-align: center;
+  background-image: url(https://visualcocaine.org/public/uploads/large/11533801346jsyrsz4xk08od31m2f13vmwq5wcsffaxdfq7buzxtzcktn9ekc2wwmkyreytukxzj12ovvtx6j4ukckjqho4owdefjcuf0ihovgz.jpg);
+}
+.container {
+
+}
+label {
+  font-size: 25px;
+  color: white;
+  background: red;
+}
+h1 {
+  font-size: 45px;
+  color: white;
+  background: red;
+}
+.answer {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background: red;
+}

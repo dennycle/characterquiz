@@ -10,7 +10,8 @@
   <body>
     <div class="container">
       <h1>Which Nintendo Character Are You?</h1>
-      <form id="datingQuiz">
+      <br>
+      <form id="characterQuiz">
         <label for="console">What's Your Favorite Nintendo Console?</label>
         <select class="form-control" id="console">
           <option value="1">NES</option>
@@ -19,7 +20,7 @@
           <option value="7">Wii</option>
           <option value="9">Switch</option>
         </select>
-
+        <br>
         <label for="genre">What's Your Favorite Game Genre?</label>
         <select class="form-control" id="genre">
           <option value="1">RPG</option>
@@ -28,44 +29,43 @@
           <option value="7">Adventure</option>
           <option value="9">Racing/Sport</option>
         </select>
-
-        <label for="magic">What Magic Power Do You Want Most?</label>
+        <br>
+        <label for="magic">What Magic Power Do You Most Want?</label>
         <select class="form-control" id="magic">
           <option value="1">Ability to Fly</option>
           <option value="3">Invisibility</option>
           <option value="5">Telekenisis</option>
-          <option value="7">Mind-Readin</option>
+          <option value="7">Mind-Reading</option>
           <option value="9">Teleportation</option>
         </select>
         <br>
-        <button type="submit" class="btn btn-info">Submit</button>
+        <button type="submit" class="btn btn-danger">Submit</button>
       </form>
       <br>
       <div class="results">
         <div class="mario">
+          <p><span class="answer">You are Mario!</span></p>
           <img src="img/mario.png" alt="A picture of Mario" width="400px">
-          <p>You are Mario!</p>
         </div>
         <div class="bowser">
+          <p><span class="answer">You are Bowser!</span></p>
           <img src="img/bowser.png" alt="A picture of Bowser" width="400px">
-          <p>You are Bowser!</p>
         </div>
         <div class="link">
+          <p><span class="answer">You are Link!</span></p>
           <img src="img/link.png" alt="A picture of Link" width="400px">
-          <p>You are Link!</p>
         </div>
         <div class="peach">
-          <img src="img/peach.jpg" alt="A picture of Princess Peach" width="400px">
-          <p>You are Princess Peach!</p>
+          <p><span class="answer">You are Princess Peach!</span></p>
+          <img src="img/peach.png" alt="A picture of Princess Peach" width="400px">
         </div>
         <div class="pikachu">
+          <p><span class="answer">You are Pikachu!</span></p>
           <img src="img/pikachu.png" alt="A picture of Pikachu" width="400px">
-          <p>You are Pikachu!</p>
         </div>
         <div class="kirby">
+          <p><span class="answer">You are Kirby!</span></p>
           <img src="img/kirby.png" alt="A picture of Kirby" width="400px">
-          <p>You are Kirby!</p>
-        </div>
         </div>
       </div>
     </div>
