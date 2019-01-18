@@ -10,18 +10,37 @@ body {
 
 }
 label {
-  font-size: 25px;
+  font-size: 50px;
   color: white;
   background: red;
+  border: 5px solid red;
+  border-radius: 15px;
 }
 h1 {
-  font-size: 45px;
+  font-size: 70px;
   color: white;
-  background: red;
+  border: 5px solid red;
+  border-radius: 15px;
+  background-color: red;
 }
 .answer {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
+  border: 5px solid red;
+  border-radius: 15px;
   background: red;
+}
+.form-control {
+  font-size: 25px;
+}
+
+button{
+  height: 100px;
+  width: 200px;
+  background-color: red;
+
+}
+.submit {
+  font-size: 50px;
 }
